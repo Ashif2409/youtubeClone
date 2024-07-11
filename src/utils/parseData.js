@@ -13,7 +13,8 @@ const parseData = async (items) => {
 
     const [channelsResponse, videosResponse] = await Promise.all([
       axios.get(`${YOUTUBE_API_URL}/channels?part=snippet,contentDetails&id=${channelIds.join(",")}&key=${API_KEY}`),
-      axios.get(`${YOUTUBE_API_URL}/videos?part=contentDetails,statistics&id=${videoIds.join(",")}&key=${API_KEY}`)
+      // Remove 'n' from here
+      axios.get(`${YOUTUBE_API_URL}/videos?part=snippet,contentDetails,statistics&id=${videoIds.join(",")}&key=${API_KEY}`)
     ]);
     
     const channelsData = channelsResponse.data.items;
@@ -46,7 +47,7 @@ const parseData = async (items) => {
       }
       return null;
     }).filter(Boolean); 
-    console.log(parsedData)
+    console.log(parsedData);
     return parsedData;
   } catch (err) {
     console.error(err);
