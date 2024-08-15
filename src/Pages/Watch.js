@@ -59,7 +59,7 @@ export const Watch = () => {
               <div style={{ maxWidth: "800px" }}>
                 <div>
                   <iframe
-                    ref={videoPlayerRef} // Attach ref to iframe
+                    ref={videoPlayerRef} 
                     width="800"
                     height="502"
                     src={`https://www.youtube.com/embed/${id}?autoplay=1`}

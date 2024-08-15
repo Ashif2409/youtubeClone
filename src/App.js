@@ -8,7 +8,7 @@ import { initializeAdBlocker } from './utils/adBlocker';
 
 function App() {
     useEffect(() => {
-        initializeAdBlocker(); // Initialize ad blocker on component mount
+        initializeAdBlocker(); 
     }, []);
 
     return (
