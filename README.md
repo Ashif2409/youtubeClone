@@ -9,7 +9,6 @@ The Uninterrupted YouTube App is a React-based application that provides a seaml
 - **Search Capabilities**: Search for videos on YouTube.
 - **Recommended Videos**: View video recommendations based on your browsing history.
 - **Ad Blocker**: Integrated ad blocker to prevent interruptions during video playback.
-- **Responsive Design**: Built with Tailwind CSS for a responsive and modern UI.
 
 ## Technologies Used
 
