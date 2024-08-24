@@ -34,7 +34,7 @@ The Uninterrupted YouTube App is a React-based application that provides a seaml
    npm run build
 
 ## Configuration
-You can configure environment variables for API keys and other settings by creating a .env file in the root directory of the project. Example:
+You can configure environment variables for API keys settings by creating a .env file in the root directory of the project.
 REACT_APP_YOUTUBE_DATA_API_KEY=your_youtube_api_key
 
   
