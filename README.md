@@ -20,19 +20,23 @@ The Uninterrupted YouTube App is a React-based application that provides a seaml
 ## Installation
 
 1. Clone the repository:
+   ``` bash
    git clone https://github.com/your-username/youtube-clone.git
    cd youtube-clone
 
-2. Install dependencies:
+3. Install dependencies:
+   ``` bash
    npm install
 
-3. Start the development server:
+5. Start the development server:
+   ``` bash
    npm start
 
 ## The app will be available at http://localhost:3000.
 ## Build
+   ``` bash
    npm run build
-
+```
 ## Configuration
 You can configure environment variables for API keys settings by creating a .env file in the root directory of the project.
 REACT_APP_YOUTUBE_DATA_API_KEY=your_youtube_api_key
